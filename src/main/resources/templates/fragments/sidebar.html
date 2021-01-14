@@ -61,57 +61,11 @@
             <div class="sidebar-heading">
                 Nhân viên y tế
             </div>
-
-            <!-- Menu Ho so chung -->
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{~/admin/general-profiles}">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Hồ sơ chung</span></a>
-            </li>
-
-            <!-- Menu biểu đồ -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilitiesAdmin"
-                   aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Thống kê chung</span>
-                </a>
-                <div id="collapseUtilitiesAdmin" class="collapse" aria-labelledby="headingUtilities"
-                     data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" th:href="@{~/admin/statistic-height-page}">Chiều cao</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-weight-page}">Cân nặng</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-nerve-page}">Tâm thần kinh</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-dermatology-page}">Da liễu</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-inside-medical-page}">Nội khoa</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-outside-medical-page}">Ngoại khoa</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-ear-nose-throat-page}">Tai, mũi, họng</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-dentomaxillofacial-page}">Răng, hàm, mặt</a>
-                        <a class="collapse-item" th:href="@{~/admin/statistic-healthy-type-page}">Loại sức khỏe</a>
-                    </div>
-                </div>
-            </li>
-
             <!-- Menu Đợt khám -->
             <li class="nav-item">
                 <a class="nav-link" th:href="@{~/admin/manage-examination}">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Quản lý đợt khám</span></a>
-            </li>
-
-            <!-- Menu Đơn vị khám -->
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{~/admin/manage-department-exam}">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Quản lý đơn vị khám</span></a>
-            </li>
-
-
-            <!-- Menu phân quyền -->
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{~/admin/users-permissions}">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Phân quyền</span></a>
             </li>
         </div>
         <!-- Divider -->
@@ -129,23 +83,6 @@
                 <span>Hồ sơ cá nhân</span></a>
         </li>
 
-        <!-- Menu biểu đồ -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilitiesUser"
-               aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fas fa-fw fa-chart-area"></i>
-                <span>Thống kê chung</span>
-            </a>
-            <div id="collapseUtilitiesUser" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="collapse-item" th:href="@{~/user/statistic-height-page}">Chiều cao</a>
-                    <a class="collapse-item" th:href="@{~/user/statistic-weight-page}">Cân nặng</a>
-                    <a class="collapse-item" th:href="@{~/user/statistic-weight-page/2020}">Loại sức khỏe</a>
-                </div>
-            </div>
-        </li>
-
         <!-- Chức năng khác -->
         <div class="sidebar-heading">
             Khác
@@ -156,14 +93,6 @@
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Thông tin cá nhân</span></a>
         </li>
-
-        <!-- Nav Item - Charts -->
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <i class="fas fa-fw fa-tools"></i>
-                <span>Trợ giúp 24/7</span></a>
-        </li>
-
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
 
